@@ -1,0 +1,47 @@
+.h_3{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.black{
+    background: black;
+    color: white;
+}
+.blakish{
+    background: #3B4541;
+}
+.display1{
+    background: #BCCD96;
+    height: 53px;
+    width: 230px;
+    margin-bottom: -25px;
+}
+.one{
+    padding: 10px 20px 10px 20px;
+    font-size: 23px;
+}
+.top{
+    margin-top: 4px;
+}
+.top_2{
+    margin-top: 100px;
+}
+.div-pad{
+    padding-left: 25px;
+}
+.mult-pad{
+    padding-left: 24px;
+}
+.dot-pad{
+    padding-left: 23px;
+}
+.equal-pad{
+    padding: 2px 110px 2px 107px;
+}
+img {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    //background-size: cover;
+    width: 100%;
+    height: 100%;
+}

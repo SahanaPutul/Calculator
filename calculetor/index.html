@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Name : Sahana Parvin
+Email : sahanaparvin99@yahoo.com
+-->
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container-fluid top_2">
+            <div class="container">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title text-center h_3"><b>Calculator</b></h3>
+                        </div>
+                        <div class="panel-body blakish">
+                            <form name="frm">
+                                <div class="row">
+                                <div class="col-sm-offset-1 col-sm-9">
+                                    <div class="form-group">
+                                        <input name="result" class="form-control display1" id="result"/>
+                                    </div>
+                                </div>
+                                </div>
+                                </br>
+                                <div class="row">
+                                <div class="col-sm-offset-1 col-sm-11">
+                                    <input class="btn black one" name="1" type="button" value="1" onclick="run1()">
+                                    <input class="btn black one" name="2" type="button" value="2" onclick="run2()">
+                                    <input class="btn black one" name="3" type="button" value="3" onclick="run3()">
+                                    <input class="btn btn-danger one" name="multi" type="button" value="x" onclick="runMult()">
+                                    <br/>
+                                    <input class="btn black one top" name="4" type="button" value="4" onclick="run4()">
+                                    <input class="btn black one top" name="5" type="button" value="5" onclick="run5()">
+                                    <input class="btn black one top" name="6" type="button" value="6" onclick="run6()">
+                                    <input class="btn btn-danger one top div-pad" name="div" type="button" value="/" onclick="runDiv()">
+                                    <br/>
+                                    <input class="btn black one top" name="7" type="button" value="7" onclick="run7()">
+                                    <input class="btn black one top" name="8" type="button" value="8" onclick="run8()">
+                                    <input class="btn black one top" name="9" type="button" value="9" onclick="run9()">
+                                    <input class="btn btn-danger one top mult-pad" name="minus" type="button" value="-" onclick="runMinus()">
+                                    <br/>
+                                    <input class="btn black one top" name="0" type="button" value="0" onclick="run0()">
+                                    <input class="btn btn-warning one top" name="clear" type="button" value=" C " onclick="myFunction()">
+                                    <input class="btn btn-warning one top dot-pad" name="dot" type="button" value="." onclick="runDot()">
+                                    <input class="btn btn-danger one top" type="button" name="plus" value="+" onclick="runPlus()">
+                                    
+                                    <br/>
+                                    <input class="btn btn-primary one equal-pad text-center top" name="equal" type="button" value="=" onclick="resultFunction()">
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquary-2.2.0.min.js"></script>
+
+    </body>
+</html>
